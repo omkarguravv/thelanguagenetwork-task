@@ -69,17 +69,17 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="   py-4 lg:px-0  ">
+          <div className=" py-4 lg:px-0  ">
             <img
-              className=" absolute right-0  lg:-right-40  lg:h-64   w-1/2  lg:w-1/2"
+              className="hidden lg:visible lg:flex  absolute right-0  lg:-right-40  lg:h-64   w-1/2  lg:w-1/2"
               src={greenbox}
               alt=""
             />
-            <img
+            {/* <img
               src={vc}
               alt=""
-              className="absolute right-0  lg:-right-20  lg:h-60   w-1/2  lg:w-1/2"
-            />
+              className="hidden lg:visible lg:flex  lg:-right-28   lg:h-64     lg:w-1/2"
+            /> */}
           </div>
         </div>
       </div>
