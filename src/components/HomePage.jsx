@@ -1,5 +1,5 @@
 import React from "react";
-import vc from "./images/vc.svg";
+// import vc from "./images/vc.svg";
 import greenbox from "./images/greenbox.svg";
 import student1 from "./images/student 1.svg";
 import training1 from "./images/training1.svg";
