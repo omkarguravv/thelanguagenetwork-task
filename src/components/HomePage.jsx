@@ -8,9 +8,11 @@ function HomePage() {
   return (
     <>
       <div>
-        <div className=" py-4  flex flex-col text-center ">
-          <h1 className=" px-4 font-semibold text-xl lg:text-4xl ">
-            Learn French online and gain the confidence to speak fluently.{" "}
+        <div className=" py-2 flex flex-col text-center ">
+          <h1 className="tracking-wide  font-bold text-xl lg:text-4xl ">
+            Learn French online and gain the
+            <br />
+              confidence to speak fluently.
           </h1>
 
           <p className=" text-center w-full px-10 lg:px-60 pt-4 text-xs lg:text-sm ">
@@ -67,16 +69,16 @@ function HomePage() {
             </div>
           </div>
 
-          <div className=" lg:px-0  py-4 lg:w-1/2 ">
+          <div className="   py-4 lg:px-0  ">
             <img
-              className=" absolute right-0  lg:right-0 h-60   w-1/2  lg:w-1/2"
+              className=" absolute right-0  lg:-right-40  lg:h-64   w-1/2  lg:w-1/2"
               src={greenbox}
               alt=""
             />
             <img
               src={vc}
               alt=""
-              className="absolute py-2 right-10 h-60 w-40 lg:w-1/2"
+              className="absolute right-0  lg:-right-20  lg:h-60   w-1/2  lg:w-1/2"
             />
           </div>
         </div>

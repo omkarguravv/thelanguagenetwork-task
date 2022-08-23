@@ -15,14 +15,14 @@ function App() {
         <HomePage />
       </div>
 
-      <div className=" py-52 lg:py-10">
-
-        <ThirdPage />
-      </div>
 
       <div>
 
         <Levels />
+      </div>
+      <div className=" py-52 lg:py-10">
+
+        <ThirdPage />
       </div>
       <div >
         <CoursePrice />
